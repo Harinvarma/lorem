@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid "red";
+  width: "50%";
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.emptyDiv {
+  width: "20%";
+  border: 2px blue;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 30px;
+  margin-left: 30px;
+  width: "60%";
+}
+.section {
+  margin-left: 30px;
+  margin-right: 30px;
+  list-style: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.iconContainer {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.topContainer {
+  background-color: red;
+  margin-bottom: 10px;
+  height: 60vh;
+  background: linear-gradient(to right, rgb(245, 44, 198), yellow);
+}
+
+.imgone {
+  height: 350px;
+  width: 1530px;
+  /* object-fit: contain; */
+}
+.whatsapp {
+  height: 30px;
+  width: 30px;
+}
+
+.shoppingcart {
+  height: 40px;
+  width: 40px;
+  resize: horizontal;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loremContainer {
+  position: absolute;
+  width: 380px;
+  height: 160px;
+  padding-right: 50px;
+  padding: 30;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin-right: 1030px;
+  background-color: rgba(223, 72, 72, 0.6);
+}
+.loremText {
+  font-family: sans-serif;
+  font-size: 30;
+  color: white;
+  font-weight: 800;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+.loremparagraph {
+  color: white;
+  margin-top: 10px;
+}
+.secondImageContainer {
+  width: "100%";
+  height: 70vh;
+  background-color: blue;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, rgb(245, 44, 198), yellow);
+}
+.gallaryContainer {
+  flex-wrap: wrap;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.orderText {
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  padding-top: 20px;
+}
+.gallery {
+  width: 170px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 130px;
+  border-top-right-radius: 30px;
+}
+.eachGallery {
+  width: 190px;
+
+  background-color: white;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  height: 250px;
+}
+.productText {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.productPara {
+  text-align: center;
+  font-size: 15px;
+}
+.orderNow {
+  height: 30;
+  background-color: rgba(196, 227, 217, 0.6);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  border-radius: 20px;
+  padding: 10;
+  height: 30px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
